@@ -9,7 +9,7 @@ public class ParallelCalculator implements Runnable {
     private int operand1;
     private int operand2;
 
-    public ParallelCalculator(BinaryOperator<Integer>, int operand1, int operand2) {
+    public ParallelCalculator(BinaryOperator<Integer> operator, int operand1, int operand2) {
         this.operator = operator;
         this.operand1 = operand1;
         this.operand2 = operand2;
